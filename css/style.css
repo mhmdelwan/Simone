@@ -1,0 +1,226 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* S T A R T   N A V B A R  */
+
+.navbar-brand
+{
+    color: black;
+}
+.nav-link
+{
+    color: black;
+    font-weight: 500;
+}
+.nav-link:hover
+{
+    color: green;
+}
+/* E N D   N A V B A R */
+
+/* S T A R T   H O M E  */
+.home
+{
+    background-image: url(../images/WhatsApp\ Image\ 2022-09-04\ at\ 7.58.38\ PM.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+.home-content h3
+{
+    font-size: 24px;
+}
+.home-content h1
+{
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.home-content h4
+{
+    font-size: 26px;
+    font-weight: 300;
+}
+ .home-content h1::after
+{
+  content: " ";
+  animation-name: designer;
+  animation-duration: 15s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes designer
+{
+    0% {content: " ";}
+    1% {content: " S|";}
+    2% {content: " Si|";}
+    3% {content: " Sim|";}
+    4% {content: " Simo|";}
+    5% {content: " Simon|";}
+    6% {content: " Simone|";}
+    7% {content: " Simone |";}
+    8% {content: " Simone O|";}
+    9% {content: " Simone Ol|";}
+    10% {content: " Simone Oli|";}
+    11% {content: " Simone Oliv|";}
+    12% {content: " Simone Olivi|";}
+    13% {content: " Simone Olivie|";}
+    14% {content: " Simone Olivi|";}
+    15% {content: " Simone Oliv|";}
+    16% {content: " Simone Oli|";}
+    17% {content: " Simone Ol|";}
+    18% {content: " Simone O|";}
+    19% {content: " Simone|";}
+    20% {content: " Simon|";}
+    21% {content: " Simo|";}
+    22% {content: " Simo|";}
+    23% {content: " Sim|";}
+    24% {content: " Si|";}
+    25% {content: " S|";}
+    26% {content: " a |";}
+    27% {content: " a F|";}
+    28% {content: " a Fr|";}
+    29% {content: " a Fre|";}
+    30% {content: " a Free|";}
+    31% {content: " a Freel|";}
+    32% {content:  " a Freela|";}
+    33% {content: " a Freelan|";}
+    34% {content: " a Freelanc|";}
+    35% {content: " a Freelance|";}
+    36% {content: " a Freelancer|";}
+    37% {content: " a Freelance|";}
+    38% {content: " a Freelanc|";}
+    39% {content: " a Freelan|";}
+    40% {content: " a Freela|";}
+    41% {content: " a Freel|";}
+    42% {content: " a Free|";}
+    43% {content: " a Fre|";}
+    44% {content: " a Fr|";}
+    45% {content: " a F|";}
+    46% {content: " a F|";}
+    47% {content: " a|";}
+    48% {content: " a D|";}
+    49% {content: " a De|";}
+    50% {content: " a Des|";}
+    51% {content: " a Desi|";}
+    52% {content: " a Desig|";}
+    53% {content: " a Design|";}
+    54% {content: " a Designe|";}
+    55% {content: " a Designer|";}
+    56% {content: " a Dseigne|";}
+    57% {content: " a Design|";}
+    58% {content: " a Dseig|";}
+    59% {content: " a Desi|";}
+    60% {content: " a Des|";}
+    61% {content: " a De|";}
+    62% {content: " a D|";}
+    63% {content: " a|";}
+    64% {content: " a P|";}
+    65% {content: " a Ph|";}
+    66% {content: " a Pho|";}
+    67% {content: " a Phot|";}
+    68% {content: " a Photo|";}
+    69% {content: " a Photog|";}
+    70% {content: " a Photogr|";}
+    71% {content: " a Photogra|";}
+    72% {content: " a Photograp|";}
+    73% {content: " a Photograph|";}
+    74% {content: " a Photographe|";}
+    75% {content: " a Photographer|";}
+    76% {content: " a Photographe|";}
+    77% {content: " a Photograph|";}
+    78% {content: " a Photograp|";}
+    79% {content: " a Photogra|";}
+    80% {content: " a Photogr|";}
+    81% {content: " a Photog|";}
+    82% {content: " a Phot|";}
+    83% {content: " a Pho|";}
+    84% {content: " a Ph|";}
+    85% {content: " a P|";}
+    86% {content: " a|";}
+    87% {content: " a D|";}
+    88% {content: " a De|";}
+    88% {content: " a Dev|";}
+    89% {content: " a Deve|";}
+    90% {content: " a Devel|";}
+    91% {content: " a Develo|";}
+    92% {content: " a Develop|";}
+    93% {content: " a Develope|";}
+    94% {content: " a Developer|";}
+    95% {content: " a Develope|";}
+    96% {content: " a Develop|";}
+    97% {content: " a Develo|";}
+    98% {content: " a Devel|";}
+    99% {content: " a Deve|";}
+    100% {content: " a |";}
+}
+/* E N D   H O M E  */
+
+
+/* S T A R T   A B O U T */
+.caption h3
+{
+    font-size: 70px;
+    opacity: 0.1;
+}
+.text-muted
+{
+    font-size: 13px;
+}
+/* E N D   A B O U T */
+
+/* S T A R T   P O R T F O L I O */
+.profile-links .color 
+{
+    color: black;
+}
+.profile-links .color:hover
+{
+    color: green;
+}
+.item-img
+{
+    position: relative;
+}
+.layer
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.653);
+    opacity: 0;
+    transition: all 0.5s;
+}
+.portfolio-item:hover .layer
+{
+    opacity: 1;
+    cursor: pointer;
+}
+.item-img
+{
+    transition: all 1s;
+}
+.item-img:hover
+{
+    transform: scale(1.2);
+}
+.portfolio-item
+{
+    overflow: hidden;
+}
+/* E N D   P R O F I L E */
+
+/* S T A R T   F O O T E R */
+.icons a
+{
+    color: black;
+    transition: all 0.5s;
+}
+.icons a:hover
+{
+    color: green;
+}
